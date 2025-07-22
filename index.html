@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מסלול טיול גיאורגיה</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            direction: rtl; /* Right-to-left for Hebrew */
+            text-align: right; /* Align text to the right */
+        }
+        .container {
+            max-width: 960px; /* Max width for content */
+        }
+        .card {
+            background-color: #ffffff; /* White card background */
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); /* Soft shadow */
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12); /* Enhanced shadow on hover */
+        }
+        .card-title {
+            font-size: 1.75rem; /* Larger title font */
+            font-weight: 700; /* Bold title */
+            color: #1f2937; /* Dark gray text */
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem; /* Space between emoji and text */
+        }
+        .card-subtitle {
+            font-size: 1.25rem; /* Subtitle font size */
+            font-weight: 600; /* Semi-bold */
+            color: #4b5563; /* Medium gray text */
+            margin-bottom: 0.75rem;
+        }
+        .card-content {
+            color: #374151; /* Slightly lighter text for content */
+            line-height: 1.7; /* Better readability */
+        }
+        .attraction-list {
+            list-style: none; /* Remove default list style */
+            padding: 0;
+            margin-top: 1rem;
+        }
+        .attraction-list li {
+            background-color: #f9fafb; /* Lighter background for list items */
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid #e5e7eb; /* Subtle border */
+        }
+        .emoji {
+            font-size: 1.5rem; /* Larger emojis */
+        }
+    </style>
+</head>
+<body class="p-6 md:p-10">
+    <div class="container mx-auto">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-center text-gray-900 mb-12 mt-6 leading-tight">
+            מסלול טיול קסום בגיאורגיה ✨
+        </h1>
+
+        <!-- Day 1: Arrival in Tbilisi -->
+        <div class="card">
+            <h2 class="card-title">
+                <span class="emoji">✈️</span> הגעה לטביליסי
+            </h2>
+            <p class="card-content">
+                נחיתה ב-9:30 בבוקר בגיאורגיה, העברות משדה התעופה למלון, צ'ק אין והתארגנות.
+            </p>
+            <p class="card-content mt-4">
+                <span class="emoji">🍽️</span> בערב: מסעדת פולקלור מקומית עם הופעת ריקודים.
+            </p>
+        </div>
+
+        <!-- Days 2-3: Optional Attractions -->
+        <div class="card">
+            <h2 class="card-title">
+                <span class="emoji">📍</span> אטרקציות לבחירה בימים שני ושלישי
+            </h2>
+            <p class="card-content">
+                בחרו מבין האטרקציות המגוונות הבאות, לפי הקצב המועדף עליכם:
+            </p>
+            <ul class="attraction-list">
+                <li><span class="emoji">♨️</span> <strong>מרחצאות הגופרית:</strong> בתי מרחץ היסטוריים עם מי גופרית טבעיים באזור אבאנותובני – חוויה ייחודית ומרגיעה.</li>
+                <li><span class="emoji">🕍</span> <strong>בית הכנסת הגדול:</strong> בית כנסת מפואר ומרכזי המהווה את לב הקהילה היהודית בטביליסי.</li>
+                <li><span class="emoji">🌳</span> <strong>פארק ריקה:</strong> פארק מודרני ותוסס עם מזרקות שירה, מגרשי משחקים, ורכבל למבצר נריקלה.</li>
+                <li><span class="emoji">🦁</span> <strong>גן החיות של טביליסי:</strong> גן חיות וותיק עם מגוון בעלי חיים ופעילויות לכל המשפחה.</li>
+                <li><span class="emoji">🛍️</span> <strong>שוק הפשפשים הגדול (גשר יבש):</strong> שוק פתוח וצבעוני בו תמצאו עתיקות, מזכרות ויצירות אמנות מקומיות.</li>
+                <li><span class="emoji">🛒</span> <strong>קניון Tbilisi Mall:</strong> מרכז קניות גדול ומודרני עם מגוון חנויות, מסעדות ומתחם בילוי.</li>
+                <li><span class="emoji">🍎</span> <strong>השוק הירוק (שוק דזרטר):</strong> שוק איכרים ואוכל מקומי שוקק חיים עם תוצרת טרייה ותבלינים.</li>
+                <li><span class="emoji">🎡</span> <strong>לונה פארק מתאצמינדה:</strong> פארק שעשועים ענקי על הר עם מתקנים רבים, גלגל ענק ונוף מרהיב של העיר.</li>
+                <li><span class="emoji">🎭</span> <strong>בית האופרה:</strong> מבנה אדריכלי יפהפה המארח מופעי אופרה ובלט ברמה גבוהה.</li>
+                <li><span class="emoji">🌸</span> <strong>הגנים הבוטניים הלאומיים:</strong> גנים רחבי ידיים עם מפל מים, אידיאליים לטיול רגוע בטבע.</li>
+                <li><span class="emoji">🏘️</span> <strong>העיר העתיקה:</strong> לב ליבה ההיסטורי של טביליסי עם סמטאות ציוריות, בתי עץ וכנסיות עתיקות.</li>
+                <li><span class="emoji">🐢</span> <strong>אגם הצבים (Kus Tba):</strong> אגם יפהפה מחוץ לעיר, פופולרי לשייט, פיקניקים וטיולי טבע.</li>
+                <li><span class="emoji">🔬</span> <strong>אקספרימנטריום - מוזיאון המדע:</strong> מוזיאון מדע אינטראקטיבי לילדים ומבוגרים.</li>
+                <li><span class="emoji">🤯</span> <strong>מוזיאון האשליות:</strong> מוזיאון אינטראקטיבי ומהנה עם אשליות אופטיות וחידות חשיבה.</li>
+            </ul>
+        </div>
+
+        <!-- Day 4: Military Highway -->
+        <div class="card">
+            <h2 class="card-title">
+                <span class="emoji">⛰️</span> יום רביעי - הדרך הצבאית (עם מדריך)
+            </h2>
+            <p class="card-content">
+                טיול יום מרהיב היוצא ב-8:30 בבוקר וחוצה את הרי הקווקז דרך הדרך הצבאית ההיסטורית. המסלול כולל נופים עוצרי נשימה של פסגות, עמקים ירוקים ומצודות עתיקות, ומציע חוויה בלתי נשכחת של טבע והיסטוריה.
+            </p>
+        </div>
+
+        <!-- Day 5: Diamond Bridge -->
+        <div class="card">
+            <h2 class="card-title">
+                <span class="emoji">💎</span> יום חמישי - גשר היהלום (עם מדריך)
+            </h2>
+            <p class="card-content">
+                טיול יום מרהיב היוצא ב-8:30 בבוקר אל גשר היהלום, גשר זכוכית שקוף ומרשים התלוי מעל קניון טבעי. במתחם קיימות אטרקציות אקסטרים כמו זיפליין אופניים, נדנדת צוקים, מסלולי קארטינג, פארק חבלים ועוד, המציעות חוויה מלאת אדרנלין ונופים עוצרי נשימה.
+            </p>
+        </div>
+
+        <!-- Day 6: Wine Route -->
+        <div class="card">
+            <h2 class="card-title">
+                <span class="emoji">🍷</span> יום שישי - דרך היין (עם מדריך)
+            </h2>
+            <p class="card-content">
+                טיול יום מהנה היוצא ב-8:30 בבוקר לאזור קאחתי, המכונה "דרך היין" של גאורגיה. במהלך היום נבקר ביקב מקומי, כולל טעימות והסבר על ייצור היין. בנוסף, נשתתף בסדנת בישול ונכין מאכלים גאורגיים מסורתיים, כולל הממתק הגאורגי (צ'ורצ'חלה) והחצ'פורי, כל זאת לצד נופים יפים ואווירה כפרית.
+            </p>
+        </div>
+
+        <!-- Day 7: Gino Paradise Water Park -->
+        <div class="card">
+            <h2 class="card-title">
+                <span class="emoji">🌊</span> יום שבת - פארק המים ג'ינו פרדייז
+            </h2>
+            <p class="card-content">
+                פארק מים גדול הממוקם על "הים של טביליסי", ומשלב מתחמים מקורים וחיצוניים המציעים מגוון בריכות, מגלשות מים ואזורי ספא, לבילוי מהנה בכל מזג אוויר ולכל המשפחה.
+            </p>
+        </div>
+
+        <!-- Days 8-9: Borjomi and Akhaltsikhe -->
+        <div class="card">
+            <h2 class="card-title">
+                <span class="emoji">🏞️</span> יום ראשון-שני: טיול דו-יומי לבורג'ומי ואחלציחה
+            </h2>
+            <p class="card-content">
+                בין ראשון לשני (3-4 באוגוסט) נצא לטיול פרטי ומיוחד לבורג'ומי ואחלציחה, כולל לינה במלון באזור ומדריך דובר עברית.
+            </p>
+            <ul class="attraction-list">
+                <li><span class="emoji">🏰</span> נבקר במצ'חטה ובעיר המערות אופליסציחה עם אפשרות לרכיבה על סוסים, טרקטורונים ורייזרים.</li>
+                <li><span class="emoji">🌲</span> נמשיך לטיול רגלי או בטרקטורונים בפארק הלאומי בורג'ומי, אפשרות לרחצה במרחצאות גופרית, תצפית פנורמית וארוחה במסעדה מקומית.</li>
+                <li><span class="emoji">⛪</span> ביום השני נבקר במנזר גרין מונסטרי, בטירת רבאטי ובבית הכנסת באחלציחה.</li>
+                <li><span class="emoji">🛶</span> נסיים בראפטינג (אופציונלי), ונחזור לטביליסי (מלון בקרבת שדה התעופה).</li>
+                <li><span class="emoji">🍲</span> בדרך המדריך יעצור לנו לארוחת ערב במסעדה מקומית מומלצת.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
